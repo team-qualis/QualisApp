@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QualisApp</string>
+    <string name="title_activity_confirm_location">Map</string>
+    <string name="title_activity_order_delivery">OrderDelivery</string>
+</resources>
