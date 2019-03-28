@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class DropComfirmation extends AppCompatActivity {
+public class DropConfirmationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class DropComfirmation extends AppCompatActivity {
         confirmDrop.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), ReceiveConfirmation.class);
+                Intent startIntent = new Intent(getApplicationContext(), ReceiveConfirmationActivity.class);
                 startActivity(startIntent);
             }
         });

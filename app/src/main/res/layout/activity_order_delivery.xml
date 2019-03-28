@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_sky_cut"
-    tools:context=".OrderDelivery">
+    tools:context=".OrderDeliveryActivity">
 
     <ImageButton
         android:id="@+id/imageButton"

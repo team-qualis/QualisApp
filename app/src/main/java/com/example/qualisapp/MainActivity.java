@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         recPac.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), DropComfirmation.class);
+                Intent startIntent = new Intent(getApplicationContext(), DropConfirmationActivity.class);
                 startActivity(startIntent);
             }
         });
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         schDlvr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), OrderDelivery.class);
+                Intent startIntent = new Intent(getApplicationContext(), OrderDeliveryActivity.class);
                 startActivity(startIntent);
             }
         });
