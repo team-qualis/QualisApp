@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class OrderDelivery extends AppCompatActivity {
+public class OrderDeliveryActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +27,7 @@ public class OrderDelivery extends AppCompatActivity {
         placeRequest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), OrderReceipt.class);
+                Intent startIntent = new Intent(getApplicationContext(), OrderReceiptActivity.class);
                 startActivity(startIntent);
             }
         });
