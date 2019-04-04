@@ -27,7 +27,7 @@ public class DropConfirmationActivity extends AppCompatActivity {
         returnBttn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), MainActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(startIntent);
             }
         });
