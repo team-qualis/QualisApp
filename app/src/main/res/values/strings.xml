@@ -2,4 +2,11 @@
     <string name="app_name">QualisApp</string>
     <string name="title_activity_confirm_location">Map</string>
     <string name="title_activity_order_delivery">OrderDelivery</string>
+    <string name = "select_zone">Select Zone</string>
+    <string-array name="zone_address">
+
+        <item>1873 Bloor St W</item>
+        <item>2075 Bayview Ave</item>
+        <item>55 Eglinton Ave E</item>
+    </string-array>
 </resources>
